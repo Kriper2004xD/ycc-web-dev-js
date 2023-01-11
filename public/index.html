@@ -22,6 +22,12 @@
 </body>
 <script>
 
+  document.addEventListener('keydown', function (event) {
+    if (event.code === 'Enter') {
+      addItem()
+    }
+  })
+
   let myBtn = document.getElementById('add-btn');
   myBtn.addEventListener('click', addItem)
 
