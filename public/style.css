@@ -31,3 +31,10 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.todo-item:hover {
+  background-color: lightblue;
+}
+
+.item-completed {
+  text-decoration: line-through;
+}
